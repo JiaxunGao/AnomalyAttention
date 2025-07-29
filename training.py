@@ -4,7 +4,7 @@ import numpy as np
 from sklearn.model_selection import StratifiedKFold
 from sklearn.metrics import confusion_matrix, f1_score
 
-from model_implementation import GazeTransformer
+from gaze_transformer import GazeTransformer
 from data_processing import load_data, prepare_fold_data, create_data_loaders
 from utils import generate_random_mask
 
